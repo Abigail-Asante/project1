@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.616)), url(../images/home1.jpg); 
+    /* background-color: rgba(0, 0, 0, 0.884); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 2rem 10rem;
+    margin: auto;
+}
+
+.nav-links{
+    display: flex;
+    
+}
+
+#logo{
+    text-decoration: none;
+    color: #EBC344;
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+.ul-list{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin-left: 20rem;
+
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #F2F4E4;
+    justify-content: space-around;
+}
+
+.header-text{
+    margin: 10rem 20rem;
+    justify-items: center;
+}
+
+.header-text h4{
+    font-size: 20pt;
+    color: #EBC344;
+    /* margin: 10rem 20rem; */
+}
+.header-text h1{
+    font-size: 30pt;
+    color: #F2F4E4;
+    
+    
+
+}
