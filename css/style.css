@@ -1,6 +1,7 @@
-body {
+body{
     padding: 0;
     margin: 0;
+    
 }
 
 #header-bg {
@@ -42,7 +43,7 @@ body {
 
 .header-text{
     margin: 10rem 20rem;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 .header-text h4{
