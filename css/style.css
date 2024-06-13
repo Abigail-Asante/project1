@@ -22,8 +22,8 @@
 
 #logo {
     text-decoration: none;
-    color: #EBC344;
-    font-size: 20pt;
+    color: #fac108;
+    font-size: 30pt;
     font-family: cursive;
 }
 
@@ -42,20 +42,22 @@
 }
 
 .header-text {
-    margin: 10rem 20rem;
+    /* margin: 10rem 20rem; */
     /* justify-items: center; */
     text-align: center;
+    padding-top: 10rem;
 }
 
 .header-text h4 {
-    font-size: 20pt;
-    color: #EBC344;
+    font-size: 30pt;
+    color: #fac108;
     /* margin: 10rem 20rem; */
 }
 
 .header-text h1 {
-    font-size: 30pt;
+    font-size: 50pt;
     color: #F2F4E4;
+    padding-bottom: 3rem;
 
 }
 
