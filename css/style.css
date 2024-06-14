@@ -70,19 +70,20 @@
 
 .about-section {
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.233)), url(../images/resort1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.671)), url(../images/resort1.jpg);
+    /* background-color: #F2F4E4; */
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     padding-top: 10rem;
 
 }
 
-.about-image {
+/* .about-image {
     display: flex;
     max-width: 50%;
     max-height: 50%;
 
-}
+} */
 
 .about-text {
     font-size: 20px;
@@ -91,7 +92,7 @@
 }
 
 .about-text h2 {
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     font-weight: bolder;
     font-size: 40px;
     color: #fac108;
@@ -102,7 +103,8 @@
     font-size: 25px;
     color: #F2F4E4;
     font-family: cursive;
-    line-height: 5rem;
+    line-height: 2rem;
+    font-weight: bold;
 }
 
 
@@ -153,7 +155,7 @@
 
 .sec-apartment {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.815);
+    /* background-color: rgba(0, 0, 0, 0.815); */
 }
 
 .apartment-text {
@@ -162,13 +164,15 @@
 }
 
 .apartment-text h2 {
-    color: #fac108;
+    color: #fac004;
     font-size: 30px;
+    font-weight: 80pt;
 }
 
 .apartment-text p {
-    color: #F2F4E4;
+    color: black;
     font-family: cursive;
+    /* padding-bottom: 1rem; */
 }
 
 .sec-booking {
@@ -208,6 +212,7 @@
     width: 80%;
     height: auto;
     object-fit: cover;
+
 }
 
 .grid-item {
@@ -215,7 +220,7 @@
 }
 
 .grid-item h4 {
-    color: #fac108;
+    color: #0a0a0a;
 }
 
 .grid-container2 {
@@ -245,11 +250,11 @@
 .restaurant h2 {
     /* padding-bottom: 3rem; */
     font-size: 30pt;
-    color: #F2F4E4;
+    color: white;
 }
 
 .restaurant-bg {
-    background-color: rgba(0, 0, 0, 0.815);
+    background-color: rgba(0, 0, 0, 0.37);
     height: 70vh;
 }
 
@@ -365,28 +370,36 @@ h2 {
 }
 
 footer {
-    background-color: #776322;
+    background-color: #110e04;
     height: 40vh;
-}
-
-.footer-itm {
     text-align: center;
     gap: 5rem;
     list-style-type: none;
-    /* margin-left: 20rem; */
 }
 
-.f-itm {
+
+
+/* .f-itm {
     text-decoration: none;
     color: #F2F4E4;
     font-size: 17px;
     list-style-type: none;
     gap: 5rem;
+} */
+
+.f-itm li a {
+    text-decoration: none;
+    color: #F2F4E4;
+    font-size: 17px;
+    list-style-type: none;
+    gap: 5rem;
+    padding-top: 2rem;
 }
 
-.footer-itm p {
+footer p {
     padding-top: 3rem;
     font-size: 30px;
+    color: #fac108;
 }
 
 .footer-item {
@@ -394,5 +407,6 @@ footer {
     color: #F2F4E4;
     justify-content: space-around;
     font-size: 17px;
-    
+
+
 }
