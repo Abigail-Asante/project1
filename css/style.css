@@ -5,7 +5,7 @@
 }
 
 #header-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.63)), url(../images/home1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.877)), url(../images/home1.jpg);
     /* background-color: rgba(0, 0, 0, 0.884); */
     background-position: center;
     background-size: cover;
@@ -39,6 +39,11 @@
     text-decoration: none;
     color: #F2F4E4;
     justify-content: space-around;
+    font-size: 17px;
+}
+
+.nav-item:hover {
+    color: #fac108;
 }
 
 .header-text {
@@ -65,9 +70,9 @@
 
 .about-section {
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.63)), url(../images/resort1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.233)), url(../images/resort1.jpg);
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     padding-top: 10rem;
 
 }
@@ -82,18 +87,22 @@
 .about-text {
     font-size: 20px;
     text-align: center;
-    
+
 }
-.about-text h2{
+
+.about-text h2 {
     padding-bottom: 2rem;
     font-weight: bolder;
     font-size: 40px;
     color: #fac108;
 }
+
 .about-text p {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     color: #F2F4E4;
+    font-family: cursive;
+    line-height: 5rem;
 }
 
 
@@ -108,8 +117,9 @@
 .sec-paradise {
     height: 100vh;
     width: 100px;
-    background: #977506d8;
+    background: #fac108e7;
     transition: width 3s;
+    transition-duration: 1s;
 }
 
 .sec-paradise:hover {
@@ -150,28 +160,40 @@
     text-align: center;
     padding-top: 2rem;
 }
+
 .apartment-text h2 {
     color: #fac108;
     font-size: 30px;
 }
+
 .apartment-text p {
     color: #F2F4E4;
     font-family: cursive;
 }
 
 .sec-booking {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.233)), url(../images/receptionists.jpg);
+    background-repeat: no-repeat;
     text-align: center;
-    padding: 5rem 0;
+    padding-left: 38rem;
+    padding-top: 4rem;
+    /* padding: 5rem 0; */
     height: 40vh;
 }
 
 .booking-text {
-    font-size: 30px;
+    font-size: 25px;
+
 }
 
+.booking-text h1 {
+    color: #F2F4E4;
+    padding-bottom: 2rem;
+}
 
-
-
+.booking-text h4 {
+    color: #fac108;
+}
 
 
 .grid-container {
@@ -191,7 +213,8 @@
 .grid-item {
     overflow: hidden;
 }
-.grid-item h4{
+
+.grid-item h4 {
     color: #fac108;
 }
 
@@ -215,19 +238,19 @@
 
 .restaurant {
     text-align: center;
-    padding: 4rem 0;
+    /* padding: 4rem 0; */
 
 }
 
 .restaurant h2 {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     font-size: 30pt;
     color: #F2F4E4;
 }
 
 .restaurant-bg {
     background-color: rgba(0, 0, 0, 0.815);
-    height: 100vh;
+    height: 70vh;
 }
 
 
@@ -235,6 +258,7 @@
 
 
 .testimonials {
+
     text-align: center;
     padding-top: 5rem;
     height: 60vh;
@@ -277,4 +301,98 @@
     text-decoration: none;
     color: #fac108;
     font-size: 20px;
+}
+
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 10rem 20rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.btn-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-btn:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    .btn-btn {
+        font-size: 14px;
+    }
+}
+
+footer {
+    background-color: #776322;
+    height: 40vh;
+}
+
+.footer-itm {
+    text-align: center;
+    gap: 5rem;
+    list-style-type: none;
+    /* margin-left: 20rem; */
+}
+
+.f-itm {
+    text-decoration: none;
+    color: #F2F4E4;
+    font-size: 17px;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.footer-itm p {
+    padding-top: 3rem;
+    font-size: 30px;
+}
+
+.footer-item {
+    text-decoration: none;
+    color: #F2F4E4;
+    justify-content: space-around;
+    font-size: 17px;
+    
 }
